@@ -1,1 +1,1 @@
-# Smart-community-decision-intelligence
+# Smart Community Decision Intelligence Platform
