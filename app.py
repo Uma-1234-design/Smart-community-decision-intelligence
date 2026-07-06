@@ -18,5 +18,4 @@ if api_key:
             except Exception as e:
                 st.error(f"Error: {e}")
         else:
-            st.warning("Please enter a question.")flash")
-        
+            st.warning("Please enter a question.")
