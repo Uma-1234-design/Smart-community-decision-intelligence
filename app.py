@@ -12,7 +12,7 @@ if api_key:
     if st.button("Generate Response"):
         if question:
             try:
-                model = genai.GenerativeModel("gemini-2.5-pro")
+                model = genai.GenerativeModel("gemini-2.5-flash")
                 response = model.generate_content(question)
                 st.success(response.text)
             except Exception as e:
